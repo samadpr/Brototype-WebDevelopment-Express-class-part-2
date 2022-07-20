@@ -1,12 +1,8 @@
+{{#with person}}
+{{#with comments}}
+  <h1>{{comment}}</h1>
+  <h1>{{date}}</h1>
 
-{{#if person.admin}}
+  {{/with}}
 
-<h1>This is admin</h1>
-
-{{else}}
-
-<h1>This is normal user</h1>
-
-{{/if}}
-
-
+{{/with}}
